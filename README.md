@@ -3,6 +3,8 @@ A JavaScript State Machine
 
 ## Base Usage
 ```javascript
+const { createWorkFlow } = require('../dist/index');
+
 const state = {
     A2B: true,
     B2C: true,
