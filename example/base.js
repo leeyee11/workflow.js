@@ -1,8 +1,5 @@
-# workflow.js
-A JavaScript State Machine
+const { createWorkFlow } = require('../dist/index');
 
-## Base Usage
-```javascript
 const state = {
     A2B: true,
     B2C: true,
@@ -39,4 +36,3 @@ console.log(wf.goTo('A').getState()) // 'C'
 console.log(wf.test('A')) // { isPassed : false, message: 'Validate failed :\n(context) => context.C2A'}
 state.C2A = true;
 console.log(wf.goTo('A').getState()) // 'A'
-```

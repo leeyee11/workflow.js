@@ -1,0 +1,23 @@
+{
+  "name": "workflow",
+  "version": "0.1.0",
+  "description": "A JavaScript State Machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeyee11/workflow.js.git"
+  },
+  "keywords": [
+    "state",
+    "machine"
+  ],
+  "author": "leeyee11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeyee11/workflow.js/issues"
+  },
+  "homepage": "https://github.com/leeyee11/workflow.js#readme"
+}
